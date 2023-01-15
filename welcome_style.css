@@ -1,0 +1,29 @@
+body{
+    background-color: #091540;
+    overflow-y: hidden;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    height: 40rem;
+    font-size: 24px;
+}
+
+button {
+    background-color: white;
+    color: black;
+    border: white;
+    border-radius: 5px;
+    font-size: 18px;
+    height: 35px;
+    width: 75px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 75%;
+}

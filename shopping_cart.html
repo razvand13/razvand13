@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="shopping_cart.css">
+</head>
+<body>
+    <header class ="header">
+
+        <a href="products-search.html"><img id="logo" src="logo-small.png" alt=""></a>
+
+        <ul id="navlist">
+            <li><a href="#learnmore">Learn More</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="mailto:fake@mail.com">Contact</a></li>
+        </ul>
+
+        <span id="iconwrapper"> 
+            <a href="#profile" class="iconholder">
+                <img class="icon" src="user-48.png" alt="">
+                <span>Profile</span>
+            </a>
+                
+            <a href="./shopping_cart.html" class="iconholder">
+                <img class="icon" src="cart-5-48.png" alt="">
+                <span>Cart</span>
+            </a>
+        </span>
+    </header>
+
+    <div id="container">
+        <div id="product-container">
+            <div class="product">
+                <div class="product-image"> 
+                    Product image
+                </div>
+
+                <div class="product-description">
+                    Product description
+                </div>
+                <input type="number" name="balance" class="quantity" placeholder="Quantity" />
+                <div class="price"> 
+                    Price
+                </div>
+
+            </div>
+
+            <div class="product">
+                <div class="product-image"> 
+                    Product image
+                </div>
+
+                <div class="product-description">
+                    Product description
+                </div>
+                <input type="number" name="balance" class="quantity" placeholder="Quantity" />
+                <div class="price"> 
+                    Price
+                </div>
+            </div>
+        </div>
+    
+        <div id="checkout-container">
+            <div id="total">
+                Total: 
+            </div>
+
+            <input type="submit" value="Chekout" id="checkout">
+        </div>
+    </div>
+
+    
+    
+</body>
+</html>

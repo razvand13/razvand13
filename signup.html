@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <link rel="stylesheet" href="forms.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="loginform signupform">
+            <h1>Are you buying?</h1>
+            <form action="products-search.html">
+            
+                <div class="container">
+                    <input type="text" placeholder="User ID" required>
+                    <input type="password" placeholder="Password" required>
+                    <input type="password" placeholder="Confirm password" required>
+                    <input type="text" placeholder="Full Name" required>
+                    <input type="text" placeholder="Address" required>
+                    <input type="text" placeholder="Country" required>
+                    <input type="text" placeholder="ZIP Code" required>
+                    <input type="email" placeholder="Email" required>
+
+                    <div class="sexselect">Sex:
+                        <input type="radio" name="sex" value="male"> Male
+                        <input type="radio" name="sex" value="female"> Female
+                        <input type="radio" name="sex" value="notsay" checked> Prefer not to say
+                    </div>
+                    <div class="langselect">
+                        <label for="languages">Language:</label>
+                        <select name="languages">
+                            <option value="EN">English</option>
+                            <option value="NL">Dutch</option>
+                            <option value="RO">Romanian</option>
+                        </select>
+                    </div>
+                    <input type="text" placeholder="IBAN (optional)">
+                    <textarea  id="about1" name="bio" placeholder="About/Bio (optional)"></textarea>
+            
+                    <div><input class="tcnews" type="checkbox" required> Accept <a href="https://policies.google.com/?hl=en-US">Terms & Conditions</a> </div>
+                    <div><input class="tcnews" type="checkbox" checked> Subscribe to our newsletter</div>
+
+                    <button type="submit">Create account</button>
+                </div>
+              
+                <div class="container" style="background-color:#f1f1f1">
+                  <p class="forgot"><a href="login.html">Already have an account?</a></p>
+                </div>
+              </form>
+              
+        </div>
+    
+        <div class="loginform signupform">
+            <h1>Are you selling?</h1>
+            <form action="#gotosupplierpage">
+            
+                <div class="container">
+                    <input type="text" placeholder="User ID" required>
+                    <input type="password" placeholder="Password" required>
+                    <input type="password" placeholder="Confirm password" required>
+                    <input type="text" placeholder="Supplier name" required>
+                    <input type="text" placeholder="Mailing Address" required>
+                    <input type="text" placeholder="Warehouse Address (optional)">
+                    <input type="text" placeholder="Country" required>
+                    <input type="text" placeholder="ZIP Code" required>
+                    <input type="email" placeholder="Email" required>
+
+                    <div class="sexselect">Sex:
+                        <input type="radio" name="sex" value="male"> Male
+                        <input type="radio" name="sex" value="female"> Female
+                        <input type="radio" name="sex" value="notsay" checked> Prefer not to say
+                    </div>
+                    <div class="langselect">
+                        <label for="languages">Language:</label>
+                        <select name="languages">
+                            <option value="EN">English</option>
+                            <option value="NL">Dutch</option>
+                            <option value="RO">Romanian</option>
+                        </select>
+                    </div>
+                    <input type="text" placeholder="IBAN (optional)">
+                    <textarea  id="about2" name="bio" placeholder="About/Bio (optional):"></textarea>
+            
+                    <div><input class="tcnews" type="checkbox" required> Accept <a href="https://policies.google.com/?hl=en-US">Terms & Conditions</a> </div>
+                    <div><input class="tcnews" type="checkbox" checked> Subscribe to our newsletter</div>
+
+                    <button type="submit">Create account</button>
+                </div>
+              
+                <div class="container" style="background-color:#f1f1f1">
+                  <p class="forgot"><a href="login.html">Already have an account?</a></p>
+                </div>
+              </form>
+        </div>
+    </div>
+</body>
+</html>

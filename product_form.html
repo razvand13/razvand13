@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Form</title>
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="product_form_style.css">
+</head>
+<body>
+    <header class ="header">
+
+        <a href="./seller_page.html"><img id="logo" src="logo-small.png" alt=""></a>
+
+        <ul id="navlist">
+            <li><a href="#learnmore">Learn More</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="mailto:fake@mail.com">Contact</a></li>
+        </ul>
+
+        <span id="iconwrapper"> 
+            <a href="#profile" class="iconholder">
+                <img class="icon" src="user-48.png" alt="">
+                <span>Profile</span>
+            </a>
+                
+            <!-- <a href="./shopping_cart.html" class="iconholder">
+                <img class="icon" src="cart-5-48.png" alt="">
+                <span>Cart</span>
+            </a> -->
+        </span>
+    </header>
+
+    <div id="background">
+        <div id="container">
+            <a href="#" class="reference" id="upload-link">
+                <div id="photo">
+                    <p id="photo-text">Upload photo</p>
+                </div>
+            </a>
+    
+            <select name="category" id="category-select">
+                <option value="" disabled selected hidden> Category</option>
+                <option value="books">Books </option>
+                <option value="electronics">Electronics </option>
+                <option value="clothes">Clothes </option>
+                <option value="accesories">Acessories </option>
+            </select>
+    
+            <input type="text" placeholder="Product Name" id="product-name">
+    
+            <textarea name="description" id="description" placeholder="Description"></textarea>
+    
+            <input type="number" name="balance" id="quantity" placeholder="Quantity" />
+    
+            <input type="text" placeholder="Price" id="price">
+    
+            <input type="submit" value="Add" id="button">
+            
+        </div>
+    </div>
+    
+</body>
+</html>

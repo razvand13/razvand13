@@ -1,0 +1,95 @@
+body {
+    background-color: #091540;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.loginform {
+    width: 35%;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10%;
+}
+
+.signupform {
+    margin-top: 0%;
+    display: inline-block;
+}
+
+input[type=text], input[type=password], input[type=email], textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border:1px solid rgb(204,204,204);
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+}
+
+#sexselect, .langselect{
+    margin: 16px 0;
+}
+  
+button {
+    background-color: rgb(234, 182, 118);
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 5px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active{
+    opacity: 0.5;
+}
+
+.container {
+    padding: 16px;
+    border-radius: 5px;
+}
+
+.forgot {
+    display: flex;
+    justify-content: space-between;
+    text-align: right;
+    margin: 0;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#about1{
+    height: 140px;
+}
+
+#about2{
+    height: 81px;
+}
+
+.about {
+    border:1px solid #999999;
+    margin:5px 0;
+    padding:3px;
+}
+
+.tcnews {
+    margin: 8px 0;
+}
+
+textarea {
+    resize: none;
+}

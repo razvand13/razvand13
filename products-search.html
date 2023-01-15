@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+    <!-- <link rel="stylesheet" href="forms.css"> -->
+    <link rel="stylesheet" href="search.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <nav>
+        <!-- <a href="#home"><img id="logo" src="logo-removebg-preview.png" alt=""></a> -->
+        <a href="#home"><img id="logo" src="logo-small.png" alt=""></a>
+
+        <ul id="navlist">
+            <li><a href="#learnmore">Learn More</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="mailto:fake@mail.com">Contact</a></li>
+        </ul>
+
+        <span id="iconwrapper"> 
+            <a href="#profile" class="iconholder">
+                <img class="icon" src="user-48.png" alt="">
+                <span>Profile</span>
+            </a>
+                
+            <a href="shopping_cart.html" class="iconholder">
+                <img class="icon" src="cart-5-48.png" alt="">
+                <span>Cart</span>
+            </a>
+        </span>
+    </nav>
+
+    <div class="container">
+        <div id="filters">
+            <form action="#">
+                <h1>Filters</h1>
+
+                <span class="searchbar">
+                    <input type="text" placeholder="Search keyword(s)">
+                </span>
+
+                <div><label>Supplier:</label>
+                    <select>
+                        <option value="" disabled selected hidden>Select supplier</option>
+                        <option value="1">Supplier #1</option>
+                        <option value="2">Supplier #2</option>
+                        <option value="3">Supplier #3</option>
+                        <option value="4">Supplier #4</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label>Max price:</label>
+                    <div class="slider">
+                        0€<input type="range" min="0" max="1000" value="250">1000€
+                    </div>
+                </div>
+
+                <div>
+                    <label>Rating:</label>
+                    <div class="stars">
+                        <span>
+                            <input type="checkbox">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </span>
+                        <span>
+                            <input type="checkbox">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </span>
+                        <span>
+                            <input type="checkbox">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <span class="fa fa-star"></span>
+                        </span>
+                        <span>
+                            <input type="checkbox">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                        </span>
+                        <span>
+                            <input type="checkbox">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="button buttonwrapper">
+                    <button type="submit" style="background-color:white">Reset</button>
+                    <button type="submit">Apply</button>
+                </div>
+                
+            </form>
+
+            <!-- <img src="ad.png" alt=""> -->
+        </div>
+
+        <div class="productwrapper">
+            <div class="product">
+                <h3>Product #1</h3>
+                <span><img src="product-nobg.png" alt=""></span>
+                <button>Add to cart</button>
+            </div>
+
+            <div class="product">
+                <h3>Product #2</h3>
+                <span><img src="product-nobg.png" alt=""></span>
+                <button>Add to cart</button>
+            </div>
+
+            <div class="product">
+                <h3>Product #3</h3>
+                <span><img src="product-nobg.png" alt=""></span>
+                <button>Add to cart</button>
+            </div>
+
+            <div class="product">
+                <h3>Product #4</h3>
+                <span><img src="product-nobg.png" alt=""></span>
+                <button>Add to cart</button>
+            </div>
+
+            <div class="product">
+                <h3>Product #5</h3>
+                <span><img src="product-nobg.png" alt=""></span>
+                <button>Add to cart</button>
+            </div>
+
+            <div class="product">
+                <h3>Product #6</h3>
+                <span><img src="product-nobg.png" alt=""></span>
+                <button>Add to cart</button>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>

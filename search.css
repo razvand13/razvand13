@@ -1,0 +1,124 @@
+#filters{
+    /* border: 2px solid red; */
+    background-color: rgba(255, 255, 255, 0.6);
+    margin: 0.75rem;
+    padding: 1rem;
+    max-width: 30%;
+    min-width: 250px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    border-radius: 5px;
+}
+
+.stars{
+    display: flex;
+    flex-direction: column;
+}
+
+/* For the rating stars, class from https://fontawesome.com/ */
+.checked {
+    color: orange;
+}
+
+div{
+    margin: 10px 5px;
+}
+
+h1 {
+    margin-left: 4px;
+}
+
+h4{
+    margin: 10px 0;
+    padding: 0;
+}
+
+.slider {
+    font-size: 14px;
+}
+
+form > div{
+    margin: 25px 0;
+}
+
+input[type=text], input[type=password], input[type=email], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border:1px solid rgb(204,204,204);
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+}
+
+button {
+    background-color: rgb(234, 182, 118);
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 5px;
+    width: 50%;
+    margin: 5px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active{
+    opacity: 0.5;
+}
+
+.buttonwrapper{
+    display: flex;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+.productwrapper {
+    flex: 1;
+    background-color: rgba(255, 255, 255, 0.6);
+    margin: 0.75rem;
+    padding: 1rem;
+    border-radius: 5px;
+    display: flex;
+    min-width: 190px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    overflow-y: scroll;
+}
+
+.product {
+    background-color: aliceblue;
+    border: 1px solid;
+    min-width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 10px 15px 0px rgba(0,0,0,0.1);
+}
+
+h3{ 
+    /* border: 1px solid; */
+    flex: 1;
+    max-height: 20%;
+    display: flex;;
+    justify-content: center;
+}
+
+p{
+    margin: 10px;
+    text-align: justify;
+    font-size: 14px;
+}

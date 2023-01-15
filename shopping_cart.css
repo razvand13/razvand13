@@ -1,0 +1,125 @@
+body{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    /* gap: 60px; */
+    overflow-x: hidden;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    overflow-y: hidden;
+}
+
+#container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 92vh;
+}
+
+#product-container{
+    /* border: 1px solid; */
+    background-color: rgba(255, 255, 255, 0.75);
+    width: 70%;
+    height: 550px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#checkout-container{
+    /* border: 1px solid; */
+    background-color: rgba(255, 255, 255, 0.75);
+    width: 20%;
+    height: 200px;
+    border-radius: 10px;
+    align-self: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.product{
+    background-color: rgba(171, 210, 250, 0.5);
+    height: 150px;
+    width: 90%;
+    border-radius: 5px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.product-image{
+    background-color: rgba(255, 255, 255, 0.75);
+    height: 90%;
+    width: 20%;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-description{
+    background-color: rgba(255, 255, 255, 0.75);
+    height: 90%;
+    width: 20%;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quantity{
+    background-color: rgba(255, 255, 255, 0.75);
+    height: 30%;
+    width: 15%;
+    border-radius: 5px;
+    border: 0px;
+}
+
+.price{
+    background-color: rgba(255, 255, 255, 0.75);
+    height: 30%;
+    width: 15%;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#total{
+    background-color: rgba(171, 210, 250, 0.5);
+    height: 30%;
+    width: 90%;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 20px;
+}
+
+#checkout{
+    background-color: rgba(234, 182, 118, 0.75);
+    width: 50%;
+    height: 40px;
+    border-radius: 5px;
+    border: 0px;
+}
+
+#checkout:hover{
+    opacity: 0.75;
+}
+
